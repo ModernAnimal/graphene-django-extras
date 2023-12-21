@@ -5,7 +5,7 @@ from django.core.cache import caches
 from django.views.decorators.csrf import csrf_exempt
 from graphene_django.views import GraphQLView
 from graphql import Source, execute, parse
-from graphql.subscribe import subscribe
+from graphql.execution.subscribe import subscribe
 from graphql.utilities.get_operation_ast import get_operation_ast
 from rest_framework.decorators import (
     api_view,
