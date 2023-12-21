@@ -42,10 +42,11 @@ keywords = ["api", "graphql", "protocol", "graphene", "django"]
 
 [tool.poetry.dependencies]
 python = "^3.7 || ^3.8 || ^3.9 || ^3.10"
-django-filter = "^22.1"
+django-filter = "^23.5"
 djangorestframework = "^3"
 python-dateutil = "^2.8.0"
 graphene-django = "^3.0"
+rx = "^3.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
